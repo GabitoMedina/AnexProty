@@ -50,6 +50,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Presentacion\index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -59,14 +60,19 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comun\Cm_ClsFactura.cs" />
+    <Compile Include="Datos\Dt_ClsFactura.cs" />
+    <Compile Include="Negocio\Ng_ClsFactura.cs" />
+    <Compile Include="Presentacion\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Comun\" />
-    <Folder Include="Datos\" />
-    <Folder Include="Negocio\" />
-    <Folder Include="Presentacion\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>

@@ -1,0 +1,4 @@
+C:\Users\gabo\Desktop\Proyectos\AnexProty\DemoAnex\DemoAnex\bin\DemoAnex.dll
+C:\Users\gabo\Desktop\Proyectos\AnexProty\DemoAnex\DemoAnex\bin\DemoAnex.pdb
+C:\Users\gabo\Desktop\Proyectos\AnexProty\DemoAnex\DemoAnex\obj\Debug\DemoAnex.dll
+C:\Users\gabo\Desktop\Proyectos\AnexProty\DemoAnex\DemoAnex\obj\Debug\DemoAnex.pdb
